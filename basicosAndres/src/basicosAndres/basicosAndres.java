@@ -2,9 +2,9 @@ package basicosAndres;
 
 public class basicosAndres {
 
-	int a=3, b=8;
+	static int a=3, b=8;
 	
-	public void logicos() {
+	public static void logicos() {
 		
 		if (a>b) {
 			
@@ -18,6 +18,11 @@ public class basicosAndres {
 		}
 	}
 		
+	public static void main (String [] args) {
+		
+		logicos();
+		
+	}
 		
 }
 	
