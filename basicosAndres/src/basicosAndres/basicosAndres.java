@@ -2,10 +2,18 @@ package basicosAndres;
 
 public class basicosAndres {
 	
-	public void cadenas(String msj){
+	static String mensaje="Hola Mundo";
+	
+	public static void cadenas(String msj){
 		
 		System.out.println(msj);
 		
 	}
 
+	
+public static void main (String [] args) {
+		
+		cadenas(mensaje);
+		
+	}
 }
